@@ -18,13 +18,13 @@ export default {
     return {
       src: require(`../../assets/${this.imageSrc}`),
       csshake: ''
-    }
+    };
   },
   methods: {
     onClick () {
-      this.csshake = 'shake-hard shake-constant'
-      setTimeout(() => { this.csshake = '' }, 700)
-      this.$emit('onclick')
+      this.csshake = 'shake-hard shake-constant';
+      setTimeout(() => { this.csshake = ''; }, 700);
+      this.$emit('onclick');
     }
   }
-}
+};

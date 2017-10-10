@@ -1,4 +1,4 @@
-import ImagePanel from '@/components/ImagePanel/image-panel.vue'
+import ImagePanel from '@/components/ImagePanel/image-panel.vue';
 
 export default {
   name: 'vote',
@@ -11,19 +11,19 @@ export default {
         ai: 0,
         marina: 0
       }
-    }
+    };
   },
   computed: {
     formattedResult () {
       return [
         `桜葉 愛: ${this.result.ai}`,
         `佐倉 まりな: ${this.result.marina}`
-      ].join('<br>')
+      ].join('<br>');
     }
   },
   methods: {
     vote (key) {
-      this.result[key] += 1
+      this.result[key] += 1;
     }
   }
-}
+};
