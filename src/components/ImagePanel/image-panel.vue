@@ -14,4 +14,4 @@
 </template>
 
 <style scoped src="./image-panel.css"></style>
-<script src="./image-panel.js"></script>
+<script lang="ts" src="./image-panel.ts"></script>

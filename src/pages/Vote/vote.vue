@@ -19,4 +19,4 @@
 </template>
 
 <style scoped src="./vote.css"></style>
-<script src="./vote.js"></script>
+<script lang="ts" src="./vote.ts"></script>
