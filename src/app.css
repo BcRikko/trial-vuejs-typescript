@@ -1,0 +1,22 @@
+#app {
+  font-family: nicomoji;
+  font-size: 62.5%;
+  text-align: center;
+  color: #2c3e50;
+
+  margin: 0;
+  padding: 0;
+
+  height: 100%;
+  width: 100vw;
+}
+
+.title {
+  margin-top: 0;
+  font-size: 3.8rem;
+  white-space: pre-wrap;
+  line-height: 1.2;
+
+  background-color: white;
+  padding: 20px 0;
+}

@@ -1,0 +1,34 @@
+.image {
+  height: 400px;
+}
+.name {
+  margin: 0 0 20px 0;
+  font-size: 2.5rem;
+}
+.twitter {
+  font-size: 1.8rem;
+  color: #337ab7;
+  text-decoration: none;
+}
+.twitter:hover {
+  text-decoration: underline;
+}
+
+.btn {
+  margin-top: 30px;
+
+  width: 50%;
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.1rem;
+
+  border-radius: 10px;
+}
+.btn:hover {
+  opacity: .7;
+}

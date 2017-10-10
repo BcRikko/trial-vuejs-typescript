@@ -1,0 +1,17 @@
+.panel-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.panel-form {
+  width: 50%;
+}
+
+.result {
+  font-size: 2rem;
+
+  background-color: white;
+  padding: 10px 0;
+
+  margin-bottom: 0;
+}
