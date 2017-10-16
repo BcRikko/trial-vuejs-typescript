@@ -1,4 +1,6 @@
-export default {
+import Vue from 'vue';
+
+export default Vue.extend({
   name: 'image-panel',
   props: {
     imageSrc: {
@@ -27,4 +29,4 @@ export default {
       this.$emit('onclick');
     }
   }
-};
+});

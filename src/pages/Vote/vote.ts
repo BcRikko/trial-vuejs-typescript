@@ -1,6 +1,7 @@
+import Vue from 'vue';
 import ImagePanel from '@/components/ImagePanel/image-panel.vue';
 
-export default {
+export default Vue.extend({
   name: 'vote',
   components: {
     ImagePanel
@@ -14,7 +15,7 @@ export default {
     };
   },
   computed: {
-    formattedResult () {
+    formattedResult (): string {
       return [
         `桜葉 愛: ${this.result.ai}`,
         `佐倉 まりな: ${this.result.marina}`
@@ -26,4 +27,4 @@ export default {
       this.result[key] += 1;
     }
   }
-};
+});

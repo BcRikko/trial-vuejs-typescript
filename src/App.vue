@@ -6,9 +6,11 @@
 </template>
 
 <script lang="ts">
-export default {
+import Vue from 'vue'
+
+export default Vue.extend({
   name: 'app'
-}
+})
 </script>
 
 <style scoped src="./app.css"></style>
