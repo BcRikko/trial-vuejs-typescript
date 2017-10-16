@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "module": "es2015",
+    "target": "es5",
+    "sourceMap": true,
+    // import Vue from 'vue'をするため
+    "allowSyntheticDefaultImports": true,
+    // モジュールの解決方法を変更するため
+    "moduleResolution": "node",
+    // Thisを推論させるため
+    "noImplicitThis": true
+  },
+  "include": [
+    "./src/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
